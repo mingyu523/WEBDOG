@@ -1,0 +1,21 @@
+mixin CreateBox(title, content, button, imgname)
+    .box   
+        .content
+            h1=title
+            p=content
+            a(href="#")=button
+        .picture
+            img(src=imgname)
+
+<!DOCTYPE html>
+html(lang="zh")
+    head
+        meta(charset="UTF-8")
+        title Doglife.
+    body
+        link(rel="stylesheet", href="index.css")
+        .main
+            include nav.pug
+            +CreateBox("標題", "內容", "按鈕", "dog1.jpg")
+            +CreateBox("標題", "內容", "按鈕", "dog2.jpg")
+            +CreateBox("標題", "內容", "按鈕", "dog3.jpg")

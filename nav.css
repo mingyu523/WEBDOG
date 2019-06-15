@@ -1,0 +1,27 @@
+*{
+    /* border: 0.5px solid rgba(0, 0, 0, 0.3); */
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    float:right;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.nav .logo{
+    font-size: 30px;
+}
+.nav span .red, .nav ul .red{
+    color: indianred;
+}
+.nav span .Dog{
+    font-weight: bold;
+}
+ul li a{
+    color: #58431e;
+    text-decoration: none;
+    font-weight: 700;
+}
